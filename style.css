@@ -1,0 +1,284 @@
+
+.container{
+    
+    width: 100%;
+    height: 1500px;
+}
+.nav-header{
+    background-color: #2668f7;
+    width: 100%;
+    height: 200px;
+    position: sticky;
+    top: 0;
+    visibility:unset;
+   
+}
+.header-info{
+    height: 65px;
+    width: 100%;
+    display: flex;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg,#2668f7 0,#183060 91%) fixed;
+}
+
+.logo{
+    background-image: url("whitelogo1.png");
+    background-size: cover;
+    width: 110px;
+    height: 23px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.button{
+    width: 32px;
+    height: 32px;
+    margin-left: 50px;
+   margin-top: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-options{
+    width: 80%;
+    font-size: 16px;
+    font-family: sans-serif;
+   
+    text-align: right;
+    margin-top: 30px;
+    
+
+}
+.nav-options a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+}
+.serch-bar{
+    width: 1120px;
+    height: 126px;
+    background-color: white;
+    margin-left: 15%;
+    border-radius: 4px;
+    
+}
+.serch-filter{
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    
+
+}
+.serch-filter a{
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.right{
+    margin-left: 700px;
+    margin-top: 10px;
+    
+}
+.travel-date{
+    width: 274px;
+    height: 50px;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.place-search{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+.date{
+    border: none;
+}
+.ret-date{
+    width: 50%;
+    border: none;
+    color: #2668f7;
+}
+.place{
+    width: 283px;
+    height: 45px;
+    border-radius: 4px;
+}
+.iconic{
+    margin-top: 15px;
+}
+.button1{
+    background-color: #001b94;
+    color: white;
+    width: 185px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-ad{
+    width: 1120px;
+    height: 343px;
+    background-color: grey;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.promo-bar{
+    height: 223px;
+    width: 1120px;
+    margin-left: 15%;
+    margin-top: 15px;
+    
+}
+.promo-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    
+}
+.boxsize{
+    width: 265px;
+    height: 164px;
+    margin-left:10px;
+    cursor: pointer;
+    
+}
+.promo-1{
+    background-image: url(p1.png);
+    background-size: cover;
+}
+.promo-2{
+    background-image: url(p2.png);
+    background-size: cover;
+}
+.promo-3{
+    background-image: url(p3.png);
+    background-size: cover;
+}
+.promo-4{
+    background-image: url(p4.png);
+    background-size: cover;
+}
+.promo-head{
+    color: white;
+    padding-top: 10px;
+}
+.view-all a{
+    text-decoration: none;
+    color: white;
+   
+
+}
+.view-all{
+    padding-top: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.promo-title{
+    display: flex;
+    justify-content: space-between;
+}
+.promo-services{
+    width: 1120px;
+    height: 30px;
+    border-bottom: solid white 1px;
+    text-align: center;
+    text-align: justify;
+    font-size: 18px;
+    
+    
+}
+.promo-services a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+    margin-left: 5%;
+}
+.promo-services a:hover{
+    text-decoration: underline;
+    
+}
+.foodimg{
+    background-image: url("tiffin.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
+.foodpara{
+    height: 113px;
+    width: 254px;
+    background-color: white;
+    padding-top: 1px;
+    align-content: center;
+    padding-left: 10px;
+
+
+    
+
+}
+.textcen{
+    text-align: left;
+    font-size: 16px;
+
+}
+.foodimg2{
+    background-image: url("bar.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
+.promo-boxes2{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    
+}
+.serv-1{
+    margin-left: 15px;
+}
+.inspire-bar{
+    height: 223px;
+    width: 1120px;
+    margin-left: 15%;
+    margin-top: 200px;
+    
+}
+.hash-img{
+    background-image: url("nofilter.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
+.festiv-img{
+    background-image: url("kadakali.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
+.tour-img{
+    background-image: url("travel.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
+.summer-img{
+    background-image: url("summer.avif");
+    width: 264px;
+    height: 178px;
+    background-size: cover;
+}
