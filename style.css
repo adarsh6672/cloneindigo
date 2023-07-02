@@ -364,12 +364,14 @@ ul{
 .soc-icons{
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .playstr{
     background-image: url("play.png");
     background-size: cover;
     width: 137px;
     height: 37px;
+    cursor: pointer;
 }
 .appstr{
     margin-top: 20px;
@@ -377,4 +379,5 @@ ul{
     background-size: cover;
     width: 137px;
     height: 47px;
+    cursor: pointer;
 }
