@@ -27,6 +27,7 @@ body{
 .logo{
     background-image: url("whitelogo1.png");
     background-size: cover;
+    
     width: 110px;
     height: 23px;
     margin-left: 10px;
@@ -281,4 +282,99 @@ body{
     width: 264px;
     height: 178px;
     background-size: cover;
+}
+.service-info{
+    width: 1120px;
+    height: 270px;
+    margin-left: 15%;
+    background-color: #183060;
+    margin-top: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-div1{
+    height: 205px;
+    width: 374px;
+    font-size: 16px;
+    margin-left: 10px;
+    padding-right: 5px;
+}
+.bottom-bar{
+    height: 130px;
+    width: 1120px;
+    background-color: white;
+    margin-left: 15%;
+    margin-top: 40px;
+    align-content: center;
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+.b-icon{
+    width: 166px;
+    height: 75px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.nav-footer{
+    width: 1120px;
+    height: 500px;
+    display: flex;
+    margin-left: 15%;
+}
+.container1{
+    height: 500px;
+    width: 840px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container2{
+    height: 500px;
+    width: 280px;
+    color: white;
+}
+.list1{
+    width: 240px;
+    height: 500px;
+    font-size: 14px;
+    text-align: left;
+    
+
+}
+.list1 a{
+    text-decoration: none;
+    color: white;
+ 
+
+}
+.list1 a:hover{
+    text-decoration: underline;
+}
+ul{
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.soc-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.playstr{
+    background-image: url("play.png");
+    background-size: cover;
+    width: 137px;
+    height: 37px;
+}
+.appstr{
+    margin-top: 20px;
+    background-image: url("apps.png");
+    background-size: cover;
+    width: 137px;
+    height: 47px;
 }
