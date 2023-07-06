@@ -378,6 +378,10 @@ ul{
     justify-content: space-evenly;
     cursor: pointer;
 }
+.soc-icons i:hover{
+    color: blue;
+    background-color: white;
+}
 .playstr{
     background-image: url("play.png");
     background-size: cover;
