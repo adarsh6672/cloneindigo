@@ -379,8 +379,9 @@ ul{
     cursor: pointer;
 }
 .soc-icons i:hover{
-    color: blue;
-    background-color: white;
+    
+    color: rgb(130, 146, 148);
+    
 }
 .playstr{
     background-image: url("play.png");
